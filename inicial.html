@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PUREP!NK</title>
+    
+    <!-- Latest compiled and minified CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- CDN (Content Delivery Network para ícones do Bootstrap) -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+</head>
+<body>
+
+ 
+
+  
+  <!-- Barra de Navegação -->
+  <nav class="navbar navbar-expand-sm navbar-dark bg-danger fixed-top">
+    <div class="container-fluid">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="mynavbar">
+        <ul class="navbar-nav me-auto">
+          <li class="nav-item">
+            <a class="nav-link active" href="inicial.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="conectar.html">Conectar</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="tabela.html">Carrinho</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="CadastrodeReceita.html">Lista de favoritos</a>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="text" placeholder="Pesquisar">
+          <button class="btn btn-primary" type="button">Pesquisar</button>
+        </form>
+        &nbsp
+        <a href="conectar.html">
+        <button class="btn btn-primary" type="button"  title="Login"><i class="bi bi-person-circle" style="width:100px;"></i></button></a>
+    </div>
+  </nav>
+
+
+  <!-- Container que abrigará o conteúdo da página -->
+  <div class="container" style="margin-top:100px; margin-bottom:100px;">
+
+    <div class="alert alert-success" role="alert">
+       ⋆ 𐙚 ̊. Garimpo Novo no Ar! Peças unicas, estilosas e sustentaveis com até 50% OFF. Descubra sua nova peça favorita. ˚.🎀⋆࣭  </div>
+
+
+      <!-- Container que abrigará o menu superior (Com dropdowns)-->
+      <div class="border border-danger" style="margin-top:30px; margin-bottom:30px;">
+        <h1> <img src="img/.png" width="200" height="100"></img></h1>
+        
+        
+        <!-- Example single danger button -->
+        <div class="btn-group">
+            <button type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Casual
+            </button>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="#">Jeans</a>
+              <a class="dropdown-item" href="#">Tshirt</a>
+              <a class="dropdown-item" href="#">Acessório</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Mostrar mais...</a>
+
+            </div>
+          </div>
+          
+          <div class="btn-group">
+            <button type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Esportivo
+            </button>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="Descricao.html">Tenis</a>
+              <a class="dropdown-item" href="#">Top</a>
+              <a class="dropdown-item" href="#">Meias</a>
+              <div class="dropdown-divider"></div>
+              <a class ="dropdown-item" href="#">Mostrar mais</a>
+            </div>
+          </div>
+
+          <div class="btn-group">
+            <button type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Formal
+            </button>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="#">Alfaiataria</a>
+              <a class="dropdown-item" href="#">Blazer</a>
+              <a class="dropdown-item" href="#">Terno</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Mostrar mais...</a>
+            </div>
+          </div>
+
+          <div class="btn-group">
+            <button type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Outras
+          </button>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="#">Pratos principais</a>
+            <a class="dropdown-item" href="#">Entradas</a>
+            <a class="dropdown-item" href="#">Pratos para datas especiais</a>
+            <div class="dropdown-divider"></div>
+          </div>
+
+        </div>
+      </div>
+    
+
+          
+      <!-- Carousel -->
+        <div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+          <!-- Indicators/dots -->
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+          </div>
+
+          <!-- The slideshow/carousel -->
+          <div class="carousel-inner">
+            <div class="carousel-item active"><h1>Cropped</h1>
+              <a href="Receita.html">
+              <img src="img/.jpeg"  alt="" width="1000" height="450" title="" class="d-block w-100"></a>
+            </div>
+            <div class="carousel-item"><h1>Saias</h1>
+              <img src="img/saia.jpeg" alt="Descrição da imagem" width="1000" height="450"alt="" title="" class="d-block w-100">
+            </div>
+            <div class="carousel-item"><h1>Shorts</h1>
+              <img src="img/.jpeg" alt=""  width="1000" height="450" title="" class="d-block w-100">
+            </div>
+          </div>
+
+          <!-- Left and right controls/icons -->
+          <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+          </button>
+        </div>
+
+        <!-- Fim da div do carrossel -->
+        <br>
+       
+
+        <!-- Grid para exibir receitas -->
+       <!-- <div class="row">
+          <div class="col-3">
+            <div class="card">
+              <img class="card-img-top" src="img/camarao.jpeg" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Moqueca</h5>
+                <p class="card-text">Aprenda a fazer a receita mais pesquisada da semana.</p>
+                <a href="#" class="btn btn-primary">Vamos lá!</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-3">
+            <div class="card">
+              <img class="card-img-top" src="img/natal.jpeg" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Ceia de Natal</h5>
+                <p class="card-text">Venha conferir as melhores receitas de natal.</p>
+                <a href="#" class="btn btn-primary">Vamos lá!</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-3">
+            <div class="card">
+              <img class="card-img-top" src="img/bolo2222.jpeg" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Bolo para Aniversário</h5>
+                <p class="card-text">Que tal fazer um bolo tornando essa data mais especial?</p>
+                <a href="#" class="btn btn-primary">Vamos lá!</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-3">
+            <div class="card">
+              <img class="card-img-top" src="img/panqueca.jpeg" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Panqueca</h5>
+                <p class="card-text">Um receita simples e fácil que vai te surpreender!</p>
+                <a href="#" class="btn btn-primary">Vamos lá!</a>
+              </div>
+            </div>
+          </div>
+        </div>
+  
+  </div>   -->
+   
+
+<div class="mt-5 bg-danger text-white text-center fixed-bottom">
+  <p>
+      <br>
+      Moda consciente, visual autêntico. PUREP!NK!
+      <b><a href="mailto:paulo.silva@ifpr.edu.br?subject=Tecnologias Web"></a></b> 
+  </p>
+</div>
+</body>
+</html>
