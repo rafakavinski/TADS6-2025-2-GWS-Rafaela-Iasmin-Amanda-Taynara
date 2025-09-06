@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Cadastrar Roupa - PUREP!NK</title>
+
+  <!-- Bootstrap 5 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+  <style>
+    .bg-pink { background-color: #ff69b4 !important; }
+    .btn-pink { background-color: #ff69b4; color: #fff; border: none; }
+    .btn-pink:hover { background-color: #ff1493; color: #fff; }
+    .card img { height: 220px; object-fit: cover; }
+  </style>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-sm navbar-dark bg-pink fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="inicial.html">PUREP!NK</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="mynavbar">
+        <ul class="navbar-nav me-auto">
+          <li class="nav-item"><a class="nav-link" href="inicial.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="conectar.html">Conectar</a></li>
+          <li class="nav-item"><a class="nav-link" href="tabela.html">Avaliações</a></li>
+          <li class="nav-item"><a class="nav-link active" href="CadastrodeReceita.html">Insira sua peça</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Conteúdo -->
+  <div class="container my-5 pt-5">
+    <!-- Mensagem de sucesso -->
+    <div id="msgOk" class="alert alert-success d-none" role="alert">
+      Peça cadastrada com sucesso! ✅
+    </div>
+
+    <h2 class="text-center mb-4">Cadastrar Nova Peça 👗</h2>
+
+    <form id="formRoupa" novalidate>
+      <div class="mb-3">
+        <label for="nomeRoupa" class="form-label">Nome da Peça</label>
+        <input type="text" class="form-control" id="nomeRoupa" placeholder="Ex: Vestido Floral" required>
+        <div class="invalid-feedback">Informe o nome da peça.</div>
+      </div>
+
+      <div class="mb-3">
+        <label for="categoria" class="form-label">Categoria</label>
+        <select class="form-select" id="categoria" required>
+          <option value="">Selecione...</option>
+          <option value="Casual">Casual</option>
+          <option value="Esportivo">Esportivo</option>
+          <option value="Formal">Formal</option>
+          <option value="Outros">Outros</option>
+        </select>
+        <div class="invalid-feedback">Selecione uma categoria.</div>
+      </div>
+
+      <div class="mb-3">
+        <label for="descricao" class="form-label">Descrição</label>
+        <textarea class="form-control" id="descricao" rows="3" placeholder="Tecido, tamanho, caimento..." required></textarea>
+        <div class="invalid-feedback">Descreva a peça.</div>
+      </div>
+
+      <div class="mb-3">
+        <label for="imagemRoupa" class="form-label">Foto da Peça</label>
+        <input class="form-control" type="file" id="imagemRoupa" accept="image/*" required>
+        <div class="invalid-feedback">Selecione uma imagem.</div>
+      </div>
+
+      <div class="mb-3">
+        <label for="preco" class="form-label">Preço (R$)</label>
+        <input type="number" class="form-control" id="preco" step="0.01" placeholder="Ex: 99.90" required>
+        <div class="invalid-feedback">Informe o preço.</div>
+      </div>
+
+      <button type="submit" class="btn btn-pink w-100">Cadastrar Peça</button>
+    </form>
+
+    <hr class="my-5">
+
+    <h3 class="text-center mb-4">Peças Cadastradas</h3>
+    <div class="row" id="listaRoupas"></div>
+  </div>
+
+  <!-- Script: só roda após o DOM estar pronto -->
+  <script>
+    document.addEventListener("DOMContentLoaded", () => {
+      const form = document.getElementById("formRoupa");
+      const listaRoupas = document.getElementById("listaRoupas");
+      const msgOk = document.getElementById("msgOk");
+
+      // Submissão do formulário
+      form.addEventListener("submit", (e) => {
+        e.preventDefault();
+
+        // Validação Bootstrap manual
+        if (!form.checkValidity()) {
+          form.classList.add('was-validated');
+          return;
+        }
+
+        const nome = document.getElementById("nomeRoupa").value.trim();
+        const categoria = document.getElementById("categoria").value;
+        const descricao = document.getElementById("descricao").value.trim();
+        const preco = document.getElementById("preco").value;
+        const imagemInput = document.getElementById("imagemRoupa");
+
+        const arquivo = imagemInput.files[0];
+        if (!arquivo) {
+          imagemInput.focus();
+          return;
+        }
+
+        // Lê a imagem como Base64 para exibir no card (funciona offline)
+        const reader = new FileReader();
+        reader.onload = (ev) => {
+          const imagemBase64 = ev.target.result;
+
+          // Monta o card
+          const col = document.createElement("div");
+          col.className = "col-md-4 mb-4";
+          col.innerHTML = `
+            <div class="card h-100">
+              <img src="${imagemBase64}" class="card-img-top" alt="${nome}">
+              <div class="card-body">
+                <h5 class="card-title">${nome}</h5>
+                <p class="card-text"><b>Categoria:</b> ${categoria}</p>
+                <p class="card-text">${descricao}</p>
+                <p class="card-text"><b>Preço:</b> R$ ${Number(preco).toFixed(2)}</p>
+              </div>
+            </div>
+          `;
+          listaRoupas.appendChild(col);
+
+          // Mensagem de sucesso
+          msgOk.classList.remove("d-none");
+          setTimeout(() => msgOk.classList.add("d-none"), 2000);
+
+          // Limpa o formulário
+          form.reset();
+          form.classList.remove('was-validated');
+        };
+        reader.readAsDataURL(arquivo);
+      });
+    });
+  </script>
+</body>
+</html>
