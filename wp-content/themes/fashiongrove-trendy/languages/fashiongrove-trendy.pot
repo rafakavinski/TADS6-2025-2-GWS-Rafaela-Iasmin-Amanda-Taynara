@@ -1,0 +1,271 @@
+# Copyright (C) 2025 fashiongrove-trendy
+# This file is distributed under the same license as the fashiongrove-trendy package.
+msgid ""
+msgstr ""
+"Project-Id-Version: fashiongrove-trendy\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2025-09-14 15:14+0000\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;_nx_noop:1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../functions.php:63
+msgid "FashionGrove Trendy"
+msgstr ""
+
+#: ../patterns/404.php:14
+msgid " 404: Page Not Disco-vered "
+msgstr ""
+
+#: ../patterns/404.php:18
+msgid " Look like the dance floor is empty here! This page has done a disappearing act. Head back to the main stage by clicking the navigation links, and let's keep the party going! "
+msgstr ""
+
+#: ../patterns/404.php:25
+msgid " Go to home page "
+msgstr ""
+
+#: ../patterns/about.php:15
+msgid "Buy Best Product at FashionGrove Trendy "
+msgstr ""
+
+#: ../patterns/about.php:19
+msgid " Lorem ipsum dolor sit amet consectetur adipiscing elit posuere convallis tempor volutpat ac euismod, condimentum facilisi vehicula malesuada ante mi velit egestas laoreet duis praesent metus. Mollis dis ultrices cum eu auctor at facilisi, quisque vel fusce ornare justo felis, et fames euismod vulputate metus natoque. Ornare turpis etiam in auctor donec euismod, scelerisque primis sagittis eget hac, ad nulla elementum suscipit aliquam. Sagittis libero pretium velit etiam inceptos non turpis est montes, nullam donec sociis feugiat eleifend parturient taciti mauris ullamcorper justo, himenaeos nulla tincidunt erat facilisi at felis platea. Taciti consequat arcu vitae nostra id morbi hendrerit praesent pulvinar, scelerisque rhoncus porttitor sed sapien purus habitasse volutpat dui, nisi per.... "
+msgstr ""
+
+#: ../patterns/about.php:24
+msgid " Call Us Now "
+msgstr ""
+
+#: ../patterns/about.php:28
+msgid " Refund Policy "
+msgstr ""
+
+#: ../patterns/archive-product.php:50
+msgid "No products were found matching your selection."
+msgstr ""
+
+#: ../patterns/archive.php:49, ../patterns/blog-left-sidebar.php:54, ../patterns/blog-right-sidebar.php:51
+msgid " No posts found "
+msgstr ""
+
+#: ../patterns/banner.php:15
+msgid "Fashion That Inspires Confidence, Comfort, and Class"
+msgstr ""
+
+#: ../patterns/banner.php:19
+msgid "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using Content here,"
+msgstr ""
+
+#: ../patterns/banner.php:24
+msgid "View Products"
+msgstr ""
+
+#: ../patterns/banner.php:28, ../patterns/contact.php:16
+msgid "Contact Us"
+msgstr ""
+
+#: ../patterns/blog-left-sidebar.php:9
+msgid " Blog & Articles "
+msgstr ""
+
+#: ../patterns/blog-right-sidebar.php:10
+msgid "News & Articles "
+msgstr ""
+
+#: ../patterns/call-to-actions.php:16
+msgid " Up To"
+msgstr ""
+
+#: ../patterns/call-to-actions.php:16
+msgid "25%"
+msgstr ""
+
+#: ../patterns/call-to-actions.php:16
+msgid " OFF"
+msgstr ""
+
+#: ../patterns/call-to-actions.php:25
+msgid "Lorem ipsum dolor sit amet consectetur adipiscing elit nulla urna lacus neque magnis diam inceptos, nunc primis venenatis semper cubilia fringilla magna massa nibh id facilisi lectus egestas. "
+msgstr ""
+
+#: ../patterns/call-to-actions.php:30, ../patterns/top-categories.php:21, ../patterns/top-categories.php:31, ../patterns/top-categories.php:41, ../patterns/top-categories.php:51
+msgid "Shop Now"
+msgstr ""
+
+#: ../patterns/cart.php:22
+msgid " You may be interested in… "
+msgstr ""
+
+#: ../patterns/cart.php:80
+msgid " Your cart is currently empty! "
+msgstr ""
+
+#: ../patterns/cart.php:88
+msgid " New in store "
+msgstr ""
+
+#: ../patterns/contact.php:20
+msgid "Lorem ipsum dolor sit amet consectetur adipiscing elit cursus felis conubia eget eu, vitae viverra penatibus non tincidunt sed posuere class fusce integer dis. Tempus elementum bibendum nulla ultrices ligula morbi rutrum, curabitur penatibus at magna aptent dapibus primis conubia, accumsan velit sociis cum cras nec. Nisl malesuada fringilla litora volutpat sollicitudin ad ornare, eleifend himenaeos vehicula proin mi viverra."
+msgstr ""
+
+#: ../patterns/contact.php:29
+msgid "+01-123-456-667"
+msgstr ""
+
+#: ../patterns/contact.php:39
+msgid "Example@example.com"
+msgstr ""
+
+#: ../patterns/contact.php:58
+msgid "Join Us"
+msgstr ""
+
+#: ../patterns/contact.php:62
+msgid "Add your Contact form here"
+msgstr ""
+
+#: ../patterns/featured-products.php:13
+msgid "Men’s Trend & Trail"
+msgstr ""
+
+#: ../patterns/featured-products.php:23, ../patterns/new-arrivals.php:23
+msgid "Check All Products"
+msgstr ""
+
+#: ../patterns/featured-products.php:47, ../patterns/new-arrivals.php:47
+msgid "No results found"
+msgstr ""
+
+#: ../patterns/featured-products.php:51
+msgid "You can try"
+msgstr ""
+
+#: ../patterns/featured-products.php:51, ../patterns/new-arrivals.php:51
+msgid "clearing any filters"
+msgstr ""
+
+#: ../patterns/featured-products.php:51
+msgid "or head to our"
+msgstr ""
+
+#: ../patterns/featured-products.php:51, ../patterns/new-arrivals.php:51
+msgid "store's home"
+msgstr ""
+
+#: ../patterns/footer.php:18
+msgid "Lorem ipsum dolor sit amet consectetur adipiscing, elit mollis lobortis ultrices torquent magna venenatis, dignissim consequat suscipit posuere eleifend. Netus nullam class conubia gravida"
+msgstr ""
+
+#: ../patterns/footer.php:32, ../patterns/sidebar.php:23, ../patterns/woo-sidebar.php:36
+msgid "Categories"
+msgstr ""
+
+#: ../patterns/footer.php:40
+msgid "Legal Links"
+msgstr ""
+
+#: ../patterns/footer.php:48
+msgid "Useful Links"
+msgstr ""
+
+#: ../patterns/footer.php:59
+msgid "Designed with"
+msgstr ""
+
+#: ../patterns/footer.php:59
+msgid "Wordpress"
+msgstr ""
+
+#: ../patterns/footer.php:63
+msgid "Developed By"
+msgstr ""
+
+#: ../patterns/footer.php:63
+msgid "Themegrove.com"
+msgstr ""
+
+#: ../patterns/footer.php:85
+msgid "instagram"
+msgstr ""
+
+#: ../patterns/new-arrivals.php:13
+msgid "New Arrivals"
+msgstr ""
+
+#: ../patterns/new-arrivals.php:51
+msgid "or head to our "
+msgstr ""
+
+#: ../patterns/news-article.php:14
+msgid "News & Articles"
+msgstr ""
+
+#: ../patterns/search.php:49
+msgid "No posts found"
+msgstr ""
+
+#: ../patterns/sidebar.php:15
+msgid "Latest Posts"
+msgstr ""
+
+#: ../patterns/sidebar.php:31
+msgid "Tags"
+msgstr ""
+
+#: ../patterns/single-product.php:67, ../patterns/usp.php:23
+msgid "Fast deliveries"
+msgstr ""
+
+#: ../patterns/single-product.php:83, ../patterns/usp.php:39
+msgid "5.0 Star rating"
+msgstr ""
+
+#: ../patterns/single-product.php:99, ../patterns/usp.php:71
+msgid "1 year warranty"
+msgstr ""
+
+#: ../patterns/single-product.php:116
+msgid "Related Products"
+msgstr ""
+
+#: ../patterns/top-categories.php:13
+msgid "Top Category"
+msgstr ""
+
+#: ../patterns/usp.php:55
+msgid "20 years Service"
+msgstr ""
+
+#: ../patterns/woo-sidebar.php:10
+msgid "Featured"
+msgstr ""
+
+#: ../patterns/woo-sidebar.php:10
+msgid "Category"
+msgstr ""
+
+#: ../patterns/woo-sidebar.php:16
+msgid "Shop now"
+msgstr ""
+
+#: ../patterns/woo-sidebar.php:24
+msgid "Filter by"
+msgstr ""
+
+#: ../patterns/woo-sidebar.php:24
+msgid "price"
+msgstr ""
+
+#: ../patterns/woo-sidebar.php:36, ../patterns/woo-sidebar.php:44
+msgid "Product"
+msgstr ""
+
+#: ../patterns/woo-sidebar.php:44
+msgid "Gallery"
+msgstr ""

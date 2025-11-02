@@ -1,0 +1,70 @@
+# Translation of Plugins - Post Grid Gutenberg Blocks for News, Magazines, Blog Websites &#8211; PostX - Stable (latest release) in Portuguese (Brazil)
+# This file is distributed under the same license as the Plugins - Post Grid Gutenberg Blocks for News, Magazines, Blog Websites &#8211; PostX - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2020-05-04 04:56:08+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: GlotPress/4.0.3\n"
+"Language: pt_BR\n"
+"Project-Id-Version: Plugins - Post Grid Gutenberg Blocks for News, Magazines, Blog Websites &#8211; PostX - Stable (latest release)\n"
+
+#: classes/Options.php:115 assets/js/ultp_dashboard_min.js:2
+msgid "Getting Started"
+msgstr "Primeiros passos"
+
+#: addons/builder/Builder.php:270 addons/builder/assets/js/conditions.js:2
+#: assets/js/ultp_dashboard_min.js:2
+msgid "Container Width"
+msgstr "Largura do contêiner"
+
+#: classes/Importer.php:602 classes/Styles.php:160
+msgid "CSS can not be saved due to permission!!!"
+msgstr "CSS não pode ser salvo devido às permissões!!!"
+
+#: classes/Styles.php:214
+msgid "Data not found!!"
+msgstr "Dados não encontrados!!"
+
+#: classes/Styles.php:209
+msgid "Data retrive done"
+msgstr "Recuperação de dados feita"
+
+#: classes/Functions.php:1225 classes/Functions.php:1506
+#: assets/js/editor.blocks.js:2 assets/js/ultp_initial_setup_min.js:2
+msgid "Next"
+msgstr "Seguinte"
+
+#: classes/Functions.php:1224 classes/Functions.php:1501
+#: assets/js/editor.blocks.js:2 assets/js/ultp_initial_setup_min.js:2
+msgid "Previous"
+msgstr "Anteriores"
+
+#: blocks/template/meta.php:50 blocks/template/meta.php:51
+msgid " ago"
+msgstr " atrás"
+
+#: blocks/template/meta.php:48
+msgid " views"
+msgstr " visitas"
+
+#: blocks/template/meta.php:46 assets/js/editor.blocks.js:2
+msgid " comments"
+msgstr " comentários"
+
+#: blocks/template/meta.php:28 blocks/template/meta.php:30
+msgid "By"
+msgstr "Por"
+
+#: blocks/Post_Grid_1.php:392 blocks/Post_Grid_2.php:369
+#: blocks/Post_Grid_3.php:381 blocks/Post_Grid_4.php:388
+#: blocks/Post_Grid_5.php:374 blocks/Post_Grid_6.php:392
+#: blocks/Post_Grid_7.php:391 blocks/Post_List_1.php:425
+#: blocks/Post_List_2.php:412 blocks/Post_List_3.php:377
+#: blocks/Post_List_4.php:414 blocks/Post_Module_1.php:401
+#: blocks/Post_Module_2.php:403 blocks/Post_Slider_1.php:294
+#: blocks/Post_Slider_2.php:282 assets/js/editor.blocks.js:2
+msgid "Read More"
+msgstr "Leia mais"

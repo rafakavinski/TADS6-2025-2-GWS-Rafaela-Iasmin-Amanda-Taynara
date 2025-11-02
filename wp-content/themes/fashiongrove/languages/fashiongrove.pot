@@ -1,0 +1,712 @@
+# Copyright (C) 2024 fashiongrove
+# This file is distributed under the same license as the fashiongrove package.
+msgid ""
+msgstr ""
+"Project-Id-Version: fashiongrove\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-10-20 16:22+0000\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;_nx_noop:1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../functions.php:63
+msgid "FashionGrove"
+msgstr ""
+
+#: ../inc/tgm-plugin/class-tgm-plugin-activation.php:327
+msgid "Install Required Plugins"
+msgstr ""
+
+#: ../inc/tgm-plugin/class-tgm-plugin-activation.php:328
+msgid "Install Plugins"
+msgstr ""
+
+#. translators: %s: plugin name.
+#: ../inc/tgm-plugin/class-tgm-plugin-activation.php:330
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#. translators: %s: plugin name.
+#: ../inc/tgm-plugin/class-tgm-plugin-activation.php:332
+msgid "Updating Plugin: %s"
+msgstr ""
+
+#: ../inc/tgm-plugin/class-tgm-plugin-activation.php:333
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: ../inc/tgm-plugin/class-tgm-plugin-activation.php:334
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../inc/tgm-plugin/class-tgm-plugin-activation.php:340
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../inc/tgm-plugin/class-tgm-plugin-activation.php:346
+msgid "The following plugin needs to be updated to its latest version to ensure maximum compatibility with this theme: %1$s."
+msgid_plural "The following plugins need to be updated to their latest version to ensure maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../inc/tgm-plugin/class-tgm-plugin-activation.php:352
+msgid "There is an update available for: %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../inc/tgm-plugin/class-tgm-plugin-activation.php:358
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../inc/tgm-plugin/class-tgm-plugin-activation.php:364
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../inc/tgm-plugin/class-tgm-plugin-activation.php:370
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../inc/tgm-plugin/class-tgm-plugin-activation.php:375
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../inc/tgm-plugin/class-tgm-plugin-activation.php:380
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../inc/tgm-plugin/class-tgm-plugin-activation.php:385
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: ../inc/tgm-plugin/class-tgm-plugin-activation.php:386, ../inc/tgm-plugin/class-tgm-plugin-activation.php:827, ../inc/tgm-plugin/class-tgm-plugin-activation.php:2533, ../inc/tgm-plugin/class-tgm-plugin-activation.php:3580
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: ../inc/tgm-plugin/class-tgm-plugin-activation.php:387, ../inc/tgm-plugin/class-tgm-plugin-activation.php:3159
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: ../inc/tgm-plugin/class-tgm-plugin-activation.php:388, ../inc/tgm-plugin/class-tgm-plugin-activation.php:2952
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name.
+#: ../inc/tgm-plugin/class-tgm-plugin-activation.php:390
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: ../inc/tgm-plugin/class-tgm-plugin-activation.php:392
+msgid "Plugin not activated. A higher version of %s is needed for this theme. Please update the plugin."
+msgstr ""
+
+#. translators: 1: dashboard link.
+#: ../inc/tgm-plugin/class-tgm-plugin-activation.php:394
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: ../inc/tgm-plugin/class-tgm-plugin-activation.php:395
+msgid "Dismiss this notice"
+msgstr ""
+
+#: ../inc/tgm-plugin/class-tgm-plugin-activation.php:396
+msgid "There are one or more required or recommended plugins to install, update or activate."
+msgstr ""
+
+#: ../inc/tgm-plugin/class-tgm-plugin-activation.php:397
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: ../inc/tgm-plugin/class-tgm-plugin-activation.php:522
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+
+#: ../inc/tgm-plugin/class-tgm-plugin-activation.php:523
+msgid "Update Required"
+msgstr ""
+
+#: ../inc/tgm-plugin/class-tgm-plugin-activation.php:937
+msgid "The remote plugin package consists of more than one file, but the files are not packaged in a folder."
+msgstr ""
+
+#: ../inc/tgm-plugin/class-tgm-plugin-activation.php:937, ../inc/tgm-plugin/class-tgm-plugin-activation.php:934
+msgid "Please contact the plugin provider and ask them to package their plugin according to the WordPress guidelines."
+msgstr ""
+
+#: ../inc/tgm-plugin/class-tgm-plugin-activation.php:934
+msgid "The remote plugin package does not contain a folder with the desired slug and renaming did not work."
+msgstr ""
+
+#: ../inc/tgm-plugin/class-tgm-plugin-activation.php:1121, ../inc/tgm-plugin/class-tgm-plugin-activation.php:2948
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr ""
+
+#. translators: %s: version number
+#: ../inc/tgm-plugin/class-tgm-plugin-activation.php:1982
+msgid "TGMPA v%s"
+msgstr ""
+
+#: ../inc/tgm-plugin/class-tgm-plugin-activation.php:2273
+msgid "Required"
+msgstr ""
+
+#: ../inc/tgm-plugin/class-tgm-plugin-activation.php:2276
+msgid "Recommended"
+msgstr ""
+
+#: ../inc/tgm-plugin/class-tgm-plugin-activation.php:2292
+msgid "WordPress Repository"
+msgstr ""
+
+#: ../inc/tgm-plugin/class-tgm-plugin-activation.php:2295
+msgid "External Source"
+msgstr ""
+
+#: ../inc/tgm-plugin/class-tgm-plugin-activation.php:2298
+msgid "Pre-Packaged"
+msgstr ""
+
+#: ../inc/tgm-plugin/class-tgm-plugin-activation.php:2315
+msgid "Not Installed"
+msgstr ""
+
+#: ../inc/tgm-plugin/class-tgm-plugin-activation.php:2321
+msgid "Active"
+msgstr ""
+
+#: ../inc/tgm-plugin/class-tgm-plugin-activation.php:2319
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: ../inc/tgm-plugin/class-tgm-plugin-activation.php:2333
+msgid "Update recommended"
+msgstr ""
+
+#: ../inc/tgm-plugin/class-tgm-plugin-activation.php:2330
+msgid "Requires Update"
+msgstr ""
+
+#: ../inc/tgm-plugin/class-tgm-plugin-activation.php:2327
+msgid "Required Update not Available"
+msgstr ""
+
+#. translators: 1: install status, 2: update status
+#: ../inc/tgm-plugin/class-tgm-plugin-activation.php:2342
+msgctxt "Install/Update Status"
+msgid "%1$s, %2$s"
+msgstr ""
+
+#. translators: 1: number of plugins.
+#: ../inc/tgm-plugin/class-tgm-plugin-activation.php:2388
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: number of plugins.
+#: ../inc/tgm-plugin/class-tgm-plugin-activation.php:2392
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: number of plugins.
+#: ../inc/tgm-plugin/class-tgm-plugin-activation.php:2396
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: number of plugins.
+#: ../inc/tgm-plugin/class-tgm-plugin-activation.php:2400
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../inc/tgm-plugin/class-tgm-plugin-activation.php:2482
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr ""
+
+#: ../inc/tgm-plugin/class-tgm-plugin-activation.php:2490
+msgid "Installed version:"
+msgstr ""
+
+#: ../inc/tgm-plugin/class-tgm-plugin-activation.php:2498
+msgid "Minimum required version:"
+msgstr ""
+
+#: ../inc/tgm-plugin/class-tgm-plugin-activation.php:2510
+msgid "Available version:"
+msgstr ""
+
+#: ../inc/tgm-plugin/class-tgm-plugin-activation.php:2533
+msgid "No plugins to install, update or activate."
+msgstr ""
+
+#: ../inc/tgm-plugin/class-tgm-plugin-activation.php:2547
+msgid "Plugin"
+msgstr ""
+
+#: ../inc/tgm-plugin/class-tgm-plugin-activation.php:2548
+msgid "Source"
+msgstr ""
+
+#: ../inc/tgm-plugin/class-tgm-plugin-activation.php:2549
+msgid "Type"
+msgstr ""
+
+#: ../inc/tgm-plugin/class-tgm-plugin-activation.php:2553
+msgid "Version"
+msgstr ""
+
+#: ../inc/tgm-plugin/class-tgm-plugin-activation.php:2554
+msgid "Status"
+msgstr ""
+
+#. translators: %2$s: plugin name in screen reader markup
+#: ../inc/tgm-plugin/class-tgm-plugin-activation.php:2608
+msgid "Update %2$s"
+msgstr ""
+
+#. translators: %2$s: plugin name in screen reader markup
+#: ../inc/tgm-plugin/class-tgm-plugin-activation.php:2614
+msgid "Activate %2$s"
+msgstr ""
+
+#: ../inc/tgm-plugin/class-tgm-plugin-activation.php:2603
+msgid "Install %2$s"
+msgstr ""
+
+#: ../inc/tgm-plugin/class-tgm-plugin-activation.php:2684
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: ../inc/tgm-plugin/class-tgm-plugin-activation.php:2717
+msgid "Install"
+msgstr ""
+
+#: ../inc/tgm-plugin/class-tgm-plugin-activation.php:2723
+msgid "Update"
+msgstr ""
+
+#: ../inc/tgm-plugin/class-tgm-plugin-activation.php:2726
+msgid "Activate"
+msgstr ""
+
+#: ../inc/tgm-plugin/class-tgm-plugin-activation.php:2759
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: ../inc/tgm-plugin/class-tgm-plugin-activation.php:2757
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: ../inc/tgm-plugin/class-tgm-plugin-activation.php:2802
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: ../inc/tgm-plugin/class-tgm-plugin-activation.php:2800
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: ../inc/tgm-plugin/class-tgm-plugin-activation.php:2908
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: ../inc/tgm-plugin/class-tgm-plugin-activation.php:2934
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: ../inc/tgm-plugin/class-tgm-plugin-activation.php:3158
+msgid "Plugin activation failed."
+msgstr ""
+
+#. translators: 1: plugin name, 2: error message.
+#: ../inc/tgm-plugin/class-tgm-plugin-activation.php:3501
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: ../inc/tgm-plugin/class-tgm-plugin-activation.php:3503
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: ../inc/tgm-plugin/class-tgm-plugin-activation.php:3515
+msgid "The installation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: ../inc/tgm-plugin/class-tgm-plugin-activation.php:3517
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: ../inc/tgm-plugin/class-tgm-plugin-activation.php:3517, ../inc/tgm-plugin/class-tgm-plugin-activation.php:3509
+msgid "Show Details"
+msgstr ""
+
+#: ../inc/tgm-plugin/class-tgm-plugin-activation.php:3517, ../inc/tgm-plugin/class-tgm-plugin-activation.php:3509
+msgid "Hide Details"
+msgstr ""
+
+#: ../inc/tgm-plugin/class-tgm-plugin-activation.php:3518
+msgid "All installations have been completed."
+msgstr ""
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: ../inc/tgm-plugin/class-tgm-plugin-activation.php:3520
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: ../inc/tgm-plugin/class-tgm-plugin-activation.php:3507
+msgid "The installation and activation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr ""
+
+#: ../inc/tgm-plugin/class-tgm-plugin-activation.php:3509
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: ../inc/tgm-plugin/class-tgm-plugin-activation.php:3510
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: ../inc/tgm-plugin/class-tgm-plugin-activation.php:3512
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: ../inc/tgm-plugin/class-tgm-plugin-activation.php:3498
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: ../inc/tgm-plugin/tgmpa-hook.php:62
+msgid "WooCommerce"
+msgstr ""
+
+#: ../patterns/404.php:14
+msgid " 404: Page Not Disco-vered "
+msgstr ""
+
+#: ../patterns/404.php:18
+msgid " Look like the dance floor is empty here! This page has done a disappearing act. Head back to the main stage by clicking the navigation links, and let's keep the party going! "
+msgstr ""
+
+#: ../patterns/404.php:25
+msgid " Go to home page "
+msgstr ""
+
+#: ../patterns/about.php:15
+msgid " Buy Best Product at FashionGrove "
+msgstr ""
+
+#: ../patterns/about.php:19
+msgid " Lorem ipsum dolor sit amet consectetur adipiscing elit posuere convallis tempor volutpat ac euismod, condimentum facilisi vehicula malesuada ante mi velit egestas laoreet duis praesent metus. Mollis dis ultrices cum eu auctor at facilisi, quisque vel fusce ornare justo felis, et fames euismod vulputate metus natoque. Ornare turpis etiam in auctor donec euismod, scelerisque primis sagittis eget hac, ad nulla elementum suscipit aliquam. Sagittis libero pretium velit etiam inceptos non turpis est montes, nullam donec sociis feugiat eleifend parturient taciti mauris ullamcorper justo, himenaeos nulla tincidunt erat facilisi at felis platea. Taciti consequat arcu vitae nostra id morbi hendrerit praesent pulvinar, scelerisque rhoncus porttitor sed sapien purus habitasse volutpat dui, nisi per.... "
+msgstr ""
+
+#: ../patterns/about.php:24
+msgid " Call Us Now "
+msgstr ""
+
+#: ../patterns/about.php:28
+msgid " Refund Policy "
+msgstr ""
+
+#: ../patterns/archive.php:49, ../patterns/blog-full-width.php:50, ../patterns/blog-left-sidebar.php:54, ../patterns/blog-right-sidebar.php:51
+msgid " No posts found "
+msgstr ""
+
+#: ../patterns/banner.php:26, ../patterns/featured-products.php:12
+msgid "Men’s Trend & Trail"
+msgstr ""
+
+#: ../patterns/banner.php:31, ../patterns/banner.php:47, ../patterns/banner.php:63, ../patterns/call-to-actions-two.php:30, ../patterns/top-categories.php:11, ../patterns/top-categories.php:21, ../patterns/top-categories.php:31, ../patterns/top-categories.php:41
+msgid "Shop Now"
+msgstr ""
+
+#: ../patterns/banner.php:42
+msgid "Athletic Edge Clothing"
+msgstr ""
+
+#: ../patterns/banner.php:58
+msgid "Urban Sportwear"
+msgstr ""
+
+#: ../patterns/blog-full-width.php:9
+msgid " News & Articles "
+msgstr ""
+
+#: ../patterns/blog-left-sidebar.php:9
+msgid " Blog & Articles "
+msgstr ""
+
+#: ../patterns/blog-right-sidebar.php:10
+msgid "News & Articles "
+msgstr ""
+
+#: ../patterns/call-to-actions-two.php:16, ../patterns/call-to-actions.php:16
+msgid " Up To "
+msgstr ""
+
+#: ../patterns/call-to-actions-two.php:16
+msgid "25% "
+msgstr ""
+
+#: ../patterns/call-to-actions-two.php:16
+msgid "OFF "
+msgstr ""
+
+#: ../patterns/call-to-actions-two.php:25, ../patterns/call-to-actions.php:25
+msgid " Lorem ipsum dolor sit amet consectetur adipiscing elit nulla urna lacus neque magnis diam inceptos, nunc primis venenatis semper cubilia fringilla magna massa nibh id facilisi lectus egestas. "
+msgstr ""
+
+#: ../patterns/call-to-actions-two.php:45, ../patterns/call-to-actions-two.php:61, ../patterns/call-to-actions-two.php:77, ../patterns/static-product.php:30, ../patterns/static-product.php:52, ../patterns/static-product.php:74, ../patterns/static-product.php:96, ../patterns/static-product.php:118, ../patterns/static-products-two.php:20, ../patterns/static-products-two.php:36, ../patterns/static-products-two.php:52
+msgid "Retro Bloom Tea Dress"
+msgstr ""
+
+#: ../patterns/call-to-actions-two.php:49, ../patterns/call-to-actions-two.php:65, ../patterns/call-to-actions-two.php:81, ../patterns/static-product.php:34, ../patterns/static-product.php:56, ../patterns/static-product.php:78, ../patterns/static-product.php:100, ../patterns/static-product.php:122, ../patterns/static-products-two.php:24, ../patterns/static-products-two.php:40, ../patterns/static-products-two.php:56
+msgid "$120"
+msgstr ""
+
+#: ../patterns/call-to-actions.php:16
+msgid " 25% "
+msgstr ""
+
+#: ../patterns/call-to-actions.php:16
+msgid " OFF "
+msgstr ""
+
+#: ../patterns/call-to-actions.php:30
+msgid " Shop Now "
+msgstr ""
+
+#: ../patterns/cart.php:22
+msgid " You may be interested in… "
+msgstr ""
+
+#: ../patterns/cart.php:80
+msgid " Your cart is currently empty! "
+msgstr ""
+
+#: ../patterns/cart.php:88
+msgid " New in store "
+msgstr ""
+
+#: ../patterns/contact.php:16
+msgid "Contact Us"
+msgstr ""
+
+#: ../patterns/contact.php:20
+msgid "Lorem ipsum dolor sit amet consectetur adipiscing elit cursus felis conubia eget eu, vitae viverra penatibus non tincidunt sed posuere class fusce integer dis. Tempus elementum bibendum nulla ultrices ligula morbi rutrum, curabitur penatibus at magna aptent dapibus primis conubia, accumsan velit sociis cum cras nec. Nisl malesuada fringilla litora volutpat sollicitudin ad ornare, eleifend himenaeos vehicula proin mi viverra."
+msgstr ""
+
+#: ../patterns/contact.php:29
+msgid "+01-123-456-667"
+msgstr ""
+
+#: ../patterns/contact.php:39
+msgid "Example@example.com"
+msgstr ""
+
+#: ../patterns/contact.php:58
+msgid "Join Us"
+msgstr ""
+
+#: ../patterns/contact.php:62
+msgid "Add your Contact form here"
+msgstr ""
+
+#: ../patterns/featured-products.php:37, ../patterns/new-arrivals.php:37
+msgid "No results found"
+msgstr ""
+
+#: ../patterns/featured-products.php:41
+msgid "You can try "
+msgstr ""
+
+#: ../patterns/featured-products.php:41, ../patterns/new-arrivals.php:41
+msgid "clearing any filters"
+msgstr ""
+
+#: ../patterns/featured-products.php:41, ../patterns/new-arrivals.php:41
+msgid "or head to our"
+msgstr ""
+
+#: ../patterns/featured-products.php:41, ../patterns/new-arrivals.php:41
+msgid "store's home"
+msgstr ""
+
+#: ../patterns/featured-products.php:48, ../patterns/new-arrivals.php:49
+msgid "Check All Products"
+msgstr ""
+
+#: ../patterns/footer.php:18
+msgid "Lorem ipsum dolor sit amet consectetur adipiscing, elit mollis lobortis ultrices torquent magna venenatis, dignissim consequat suscipit posuere eleifend. Netus nullam class conubia gravida"
+msgstr ""
+
+#: ../patterns/footer.php:32, ../patterns/sidebar.php:23, ../patterns/woo-sidebar.php:36
+msgid "Categories"
+msgstr ""
+
+#: ../patterns/footer.php:40
+msgid "Legal Links"
+msgstr ""
+
+#: ../patterns/footer.php:48
+msgid "useful Links"
+msgstr ""
+
+#: ../patterns/footer.php:59
+msgid "Designed with "
+msgstr ""
+
+#: ../patterns/footer.php:59
+msgid "WordPress"
+msgstr ""
+
+#: ../patterns/footer.php:63
+msgid "Developed By"
+msgstr ""
+
+#: ../patterns/footer.php:63
+msgid "Themegrove.com"
+msgstr ""
+
+#: ../patterns/footer.php:85
+msgid "Instagram"
+msgstr ""
+
+#: ../patterns/header.php:12
+msgid "Sale is on! 25% off sitewide using GROVE25 at checkout"
+msgstr ""
+
+#: ../patterns/new-arrivals.php:12
+msgid "New Arrivals"
+msgstr ""
+
+#: ../patterns/new-arrivals.php:41
+msgid "You can try"
+msgstr ""
+
+#: ../patterns/news-article.php:13
+msgid "News & Articles"
+msgstr ""
+
+#: ../patterns/search.php:49
+msgid "No posts found"
+msgstr ""
+
+#: ../patterns/sidebar.php:15
+msgid "Latest Posts"
+msgstr ""
+
+#: ../patterns/sidebar.php:31
+msgid "Tags"
+msgstr ""
+
+#: ../patterns/single-product.php:67, ../patterns/usp.php:23
+msgid "Fast deliveries"
+msgstr ""
+
+#: ../patterns/single-product.php:83, ../patterns/usp.php:43
+msgid "5.0 Star rating"
+msgstr ""
+
+#: ../patterns/single-product.php:99, ../patterns/usp.php:83
+msgid "1 year warranty"
+msgstr ""
+
+#: ../patterns/single-product.php:116
+msgid "Related Products"
+msgstr ""
+
+#: ../patterns/static-product.php:14
+msgid "Sample Product"
+msgstr ""
+
+#: ../patterns/static-product.php:39, ../patterns/static-product.php:61, ../patterns/static-product.php:83, ../patterns/static-product.php:105, ../patterns/static-product.php:127
+msgid "Add To Cart"
+msgstr ""
+
+#: ../patterns/static-product.php:136
+msgid "View All Products"
+msgstr ""
+
+#: ../patterns/team.php:13
+msgid "Our Experts"
+msgstr ""
+
+#: ../patterns/team.php:26, ../patterns/team.php:48, ../patterns/team.php:70, ../patterns/team.php:92, ../patterns/testimonials.php:31, ../patterns/testimonials.php:63, ../patterns/testimonials.php:97, ../patterns/testimonials.php:129
+msgid "John Doe"
+msgstr ""
+
+#: ../patterns/team.php:30, ../patterns/team.php:52, ../patterns/team.php:74, ../patterns/team.php:96, ../patterns/testimonials.php:41, ../patterns/testimonials.php:73, ../patterns/testimonials.php:107, ../patterns/testimonials.php:139
+msgid "Quisque libero metus, condimentum nec, tempor a, commodo mollis, magna. Morbi nec metus. Quisque libero metus, condimentum nec, tempor a, "
+msgstr ""
+
+#: ../patterns/testimonials.php:13
+msgid "What Our Customer Says!"
+msgstr ""
+
+#: ../patterns/top-categories.php:3
+msgid "Top Category"
+msgstr ""
+
+#: ../patterns/usp.php:27, ../patterns/usp.php:47, ../patterns/usp.php:67, ../patterns/usp.php:87
+msgid "Lorem ipsum dolor sit amet consectetur adipiscing,"
+msgstr ""
+
+#: ../patterns/usp.php:63
+msgid "20 years Service"
+msgstr ""
+
+#: ../patterns/woo-sidebar.php:10
+msgid "Featured"
+msgstr ""
+
+#: ../patterns/woo-sidebar.php:10
+msgid "Category"
+msgstr ""
+
+#: ../patterns/woo-sidebar.php:16
+msgid "Shop now"
+msgstr ""
+
+#: ../patterns/woo-sidebar.php:24
+msgid "Filter by"
+msgstr ""
+
+#: ../patterns/woo-sidebar.php:24
+msgid "price"
+msgstr ""
+
+#: ../patterns/woo-sidebar.php:36, ../patterns/woo-sidebar.php:44
+msgid "Product"
+msgstr ""
+
+#: ../patterns/woo-sidebar.php:44
+msgid "Gallery"
+msgstr ""

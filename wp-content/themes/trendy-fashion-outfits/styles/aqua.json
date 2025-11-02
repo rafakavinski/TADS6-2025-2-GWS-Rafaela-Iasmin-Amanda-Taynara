@@ -1,0 +1,31 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/theme.json",
+  "title": "Aqua",
+  "version": 2,
+  "settings": {
+    "color": {
+      "palette": [
+        { "color": "#002b36", "name": "Foreground", "slug": "foreground" },
+        { "color": "#00c2ba", "name": "Primary", "slug": "primary" },
+        { "color": "#0077b6", "name": "Secondary", "slug": "secondary" },
+        { "color": "#e0ffff", "name": "Background", "slug": "background" },
+        { "color": "#444444", "name": "Body Text", "slug": "body-text" },
+        { "color": "#b3f0ff", "name": "Secondary Background", "slug": "background-secondary" },
+        { "color": "#0096c7", "name": "Sky Aqua", "slug": "sky-aqua" },
+        { "color": "#48cae4", "name": "Light Aqua", "slug": "light-aqua" }
+      ],
+      "gradients": [
+        {
+          "gradient": "linear-gradient(135deg, #00c2ba 0%, #0077b6 100%)",
+          "name": "Primary Gradient",
+          "slug": "primary-gradient"
+        },
+        {
+          "gradient": "linear-gradient(277deg, #90e0ef 0%, #48cae4 100%)",
+          "name": "Secondary Gradient",
+          "slug": "secondary-gradient"
+        }
+      ]
+    }
+  }
+}
